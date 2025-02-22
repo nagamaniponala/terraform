@@ -1,11 +1,7 @@
 
-#creating s3 bucket and dynamo DB for state backend storgae and applying the lock mechanisam for statefile
-
-provider "aws" { 
-}
 
 resource "aws_s3_bucket" "example" {
-  bucket = "anbhgfgdfs"
+  bucket = "anbhgfgdfstfg"
   
 }
 
